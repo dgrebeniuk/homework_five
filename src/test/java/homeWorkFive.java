@@ -21,7 +21,7 @@ public class homeWorkFive {
       open("https://github.com/");
       $(".HeaderMenu-item:nth-child(2) > .HeaderMenu-link").hover();
       $(byText("Enterprise")).click();
-      $(".gutter-spacious:nth-child(2) > .col-9-max").shouldHave(text("Build like the best."));
+      $(".application-main .h1-mktg").shouldHave(text("Build like the best"));
 
 
    }
