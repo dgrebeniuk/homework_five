@@ -16,7 +16,7 @@ public class homeWorkFive {
    }
 
    @Test
-   void name() {
+   void solutions() {
 
       open("https://github.com/");
       $(".HeaderMenu-item:nth-child(2) > .HeaderMenu-link").hover();
