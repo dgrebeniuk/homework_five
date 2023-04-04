@@ -1,6 +1,4 @@
-import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Configuration;
-import com.codeborne.selenide.Selenide;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
@@ -8,7 +6,7 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
-public class homeWorkFive {
+public class HomeWorkFive {
 
    @BeforeAll
    static void beforeAll() {
@@ -16,7 +14,7 @@ public class homeWorkFive {
    }
 
    @Test
-   void name() {
+   void openEnterprisePage() {
 
       open("https://github.com/");
       $(".HeaderMenu-item:nth-child(2) > .HeaderMenu-link").hover();
